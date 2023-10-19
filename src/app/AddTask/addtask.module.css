@@ -1,0 +1,77 @@
+.form{
+    padding: 10% 0 0  0;
+    
+    
+}
+
+.form input[type="text"]{
+    width: 80%;
+    display: block;
+    margin: auto;
+    text-align: center;
+    border-bottom: 1.2px solid rgb(223, 223, 223);
+    transition: 0.3s ease-in-out;
+
+}
+.form input[type="text"]::placeholder{
+    font-size: 14px;
+}
+.form input[type="text"]:focus{
+    outline: none;
+    border-color: rgb(31, 187, 249);
+    color: grey;
+    
+
+}
+.form textarea{
+    width: 80%;
+    padding: 10px 15px;
+    border-radius: 10px;
+    
+    height: 120px;
+    margin:5% 10% 2% 10%;
+    box-shadow: 5px 5px 10px rgba(128, 128, 128, 0.63);
+}
+.form textarea::placeholder{
+    font-size: 14px;
+}
+.form textarea:focus{
+    outline: none;
+    border: 1px solid rgb(31, 187, 249) ;
+
+}
+.form select{
+    width: 80%;
+    padding: 2px 10px;
+    margin-left: 10%;
+    text-align: center;
+    box-shadow: 1px 1px 5px rgba(128, 128, 128, 0.63);
+    
+}
+.form select:focus{
+    outline: none;
+    border-top:1px solid rgb(31, 187, 249);
+    border-left:1px solid rgb(31, 187, 249);
+    border-right:1px solid rgb(31, 187, 249);
+    
+    padding: 2px 10px;
+    
+}
+.form input[type="submit"]{
+    
+    
+    color: white;
+    padding: 5px 0px;
+    width: 15%;
+    font-size: 500;
+    background-color: rgb(26, 203, 247);
+    border-radius: 7px;
+}
+.clearButton{
+    color: white;
+    padding: 5px 0px;
+    width: 15%;
+    font-size: 500;
+    background-color: rgb(255, 113, 61);
+    border-radius: 7px;
+}
